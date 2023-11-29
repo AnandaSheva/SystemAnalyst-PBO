@@ -1,6 +1,6 @@
 ## SystemAnalyst-PBO Tahap 2
 
-PENJELASAN : 
+PENJELASAN : <br>
 Dengan implementasi kode, kelas-kelas dari class diagram telah berhasil diimplementasikan sebagai berikut:
 1. Transaksi Pengembalian : 
 •	Kelas ini mempresentasikan transaksi pengembalian buku di perpustakaan.
@@ -26,7 +26,8 @@ g)	buju : Objek Buku terkait dengan transaksi
 •	Metode :
 a)	catatPeminjaman(): Mencatat dan menampilkan informasi transaksi peminjaman 
 b)	catatPengembalian() : Mencatat dan menampilkan informasi transaksi pengembalian
-      3. AnggotaPerpustakaan : 
+
+3. AnggotaPerpustakaan : 
 •	Kelas ini mempresentasikan anggota perpustakaan
 •	Atribut : 
 a)	nama : Nama anggota 
@@ -36,7 +37,8 @@ d)	sejarahPeminjaman : Daftar transaksi peminjamnan yang dilakukan anggota
 •	Metode :
 a)	pinjamBuku () : Melakukan peminjaman buku dan memperbarui sejarah peminjaman
 b)	kembalikanBuku() : Melakukan pengembalian buku dan memperbarui sejarah peminjman
-          4. Buku : 
+
+4. Buku : 
 •	Kelas ini mempresentasikan informasi tentang buku di perpustakaan
 •	Atribut : 
 a)	judulBuku : Judul buku
@@ -46,7 +48,8 @@ c)	nomorISBN : nomorISBN
 a)	tambahKoleksi() : Melakukan penambahan buku
 b)	cekKetersediaan() : Melakukan pengecekan ketersediaan barang
 	
-          5. Notifikasi :
+
+5. Notifikasi :
 •	Kelas ini meimplementasikan notifikasi tentang perpustakaan 
 •	Atribut :
 a)	id : id
@@ -57,7 +60,8 @@ d)	anggota : anggota
 a)	kirimNotifikasiPeminjaman() : Mengirim notifikasi tentang peminjaman buku
 b)	kirimNotifikasiPengembalian() : Mengirim notifikasi tentang pengemembalian buku
 
-          6. Admin :
+
+6. Admin :
 •	Kelas ini merepresentasikan administrator perpustakaan
 •	Atribut
 a)	id : Identifikasi unik admin
