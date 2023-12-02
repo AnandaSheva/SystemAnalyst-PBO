@@ -1,4 +1,4 @@
-## SystemAnalyst-PBO Tahap 2
+## SystemAnalyst-PBO Perpustakaan Tahap 2 
 
 PENJELASAN :<br>
 Dengan implementasi kode, kelas-kelas dari class diagram telah berhasil diimplementasikan sebagai berikut:
